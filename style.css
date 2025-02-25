@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fef5e7;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background: #ffccbc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery h2 {
+    color: #ff7043;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+.fun-facts {
+    background: #ffe0b2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+button {
+    background: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
